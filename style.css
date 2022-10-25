@@ -1,0 +1,15 @@
+*{
+    background-color: lightsalmon;
+}
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: solid 2px red;
+}
+h1:hover{
+    color:red
+}
+p::selection{
+    background-color:purple;
+    color:lightseagreen;
+}
